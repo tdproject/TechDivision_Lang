@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.7.1" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+	<name>${ant.project.name}</name>
+	<channel>${pear.channel}</channel>
+	<summary>Basic data types for PHP 5.1 or later</summary>
+	<description>
+		This package provides some basic data types.
+	</description>
+	<lead>
+		<name>Tim Wagner</name>
+		<user>wagnert</user>
+		<email>tw@techdivision.com</email>
+		<active>yes</active>
+	</lead>
+	<date>${actual.date}</date>
+	<time>${actual.time}</time>
+	<version>
+		<release>${release.version}</release>
+		<api>${api.version}</api>
+	</version>
+	<stability>
+		<release>${release.stability}</release>
+		<api>${api.stability}</api>
+	</stability>
+	<license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+	<notes>- Add multiply/devide methods to Float and Integer</notes>
+	<contents>
+		<dir name="/"/>
+	</contents>
+	<dependencies>
+		<required>
+			<php>
+				<min>5.2.0</min>
+				<max>6.0</max>
+			</php>
+			<pearinstaller>
+				<min>1.6.2</min>
+			</pearinstaller>
+		</required>
+	</dependencies>
+	<phprelease/>
+	<changelog>
+		<release xmlns="">
+                    <version>
+                        <release>0.1.16</release>
+                        <api>0.1.5</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-12-18</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Add multiply/devide methods to Float and Integer
+                    </notes>
+                </release>
+<release xmlns="">
+                    <version>
+                        <release>0.1.15</release>
+                        <api>0.1.5</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-11-07</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Bugfixing invalid __toString() + toString() methods
+                    </notes>
+                </release>
+<release xmlns="">
+                    <version>
+                        <release>0.1.13</release>
+                        <api>0.1.5</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-11-06</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Bugfixing invalid __toString() &amp; toString() methods
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.11</release>
+                        <api>0.1.5</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-09-27</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Bugfix missing return statement for valueOf() method + PHPUnit test
+                    </notes>
+                </release>
+<release xmlns="">
+                    <version>
+                        <release>0.1.10</release>
+                        <api>0.1.5</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-07-23</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Refactor _init() method of String class to improve performance
+
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.9</release>
+                        <api>0.1.5</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-07-18</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Refactor String to make internal use of a string instead an array for an improved performance
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.8</release>
+                        <api>0.1.5</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-07-02</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Adding add() and subtract() method to TechDivision_Lang_Float
+- Add new PHPUnit tests for TechDivision_Lang_Float
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.7</release>
+                        <api>0.1.5</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-07-01</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Adding add() and subtract() method to TechDivision_Lang_Integer
+                    </notes>
+                </release>
+<release>
+			<version>
+				<release>0.1.6</release>
+				<api>0.1.5</api>
+			</version>
+			<stability>
+				<release>beta</release>
+				<api>beta</api>
+			</stability>
+			<date>2011-03-13</date>
+			<license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+			<notes>
+				- Adding new concat() method to TechDivision_Lang_String class.
+			</notes>
+		</release>
+		<release>
+            <version>
+                <release>0.1.5</release>
+                <api>0.1.4</api>
+            </version>
+            <stability>
+                <release>beta</release>
+                <api>beta</api>
+            </stability>
+            <date>2010-07-20</date>
+            <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+            <notes>
+                - Adding __toString() method to Float class
+            </notes>
+        </release>
+		<release>
+            <version>
+                <release>0.1.4</release>
+                <api>0.1.3</api>
+            </version>
+            <stability>
+                <release>beta</release>
+                <api>beta</api>
+            </stability>
+            <date>2010-07-05</date>
+            <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+            <notes>
+                - Adding PHPUnit test and __toString() method to Boolean class
+            </notes>
+        </release>
+		<release>
+			<version>
+				<release>0.1.3</release>
+				<api>0.1.2</api>
+			</version>
+			<stability>
+				<release>beta</release>
+				<api>beta</api>
+			</stability>
+			<date>2010-06-04</date>
+			<license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+			<notes>
+				- Adding type TechDivision_Lang_String for parameter of method valueOf()
+			</notes>
+		</release>
+		<release>
+			<version>
+				<release>0.1.2</release>
+				<api>0.1.1</api>
+			</version>
+			<stability>
+				<release>beta</release>
+				<api>beta</api>
+			</stability>
+			<date>2010-06-04</date>
+			<license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+			<notes>
+				- Replacing invalid value check empty() with is_null() in _init() method
+			</notes>
+		</release>
+		<release>
+			<version>
+				<release>0.1.1</release>
+				<api>0.1.1</api>
+			</version>
+			<stability>
+				<release>beta</release>
+				<api>beta</api>
+			</stability>
+			<date>2010-05-19</date>
+			<license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+			<notes>
+				- Adding new md5(), toUpperCase() and toLowerCase() method to TechDivision_Lang_String
+				- Adding PHPUnit test for TechDivision_Lang_String
+			</notes>
+		</release>
+		<release>
+			<version>
+				<release>0.1.0</release>
+				<api>0.1.0</api>
+			</version>
+			<stability>
+				<release>beta</release>
+				<api>beta</api>
+			</stability>
+			<date>2010-05-19</date>
+			<license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+			<notes>
+				- Initial release
+			</notes>
+		</release>
+	</changelog>
+</package>
